@@ -1,2 +1,2 @@
 # NewSchoolWebsite
-New School Website
+![Graph of Dependencies](https://i.imgur.com/ptNXrkC.png)
