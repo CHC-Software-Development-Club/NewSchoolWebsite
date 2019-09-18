@@ -15,3 +15,8 @@ Software:
 -----------------------------
 - Visual Studio Code (Get the Live share extension too if you can)
 - Gitbash (For pushing your work to the github so we can all be up to date)
+
+
+Events:
+----------------------
+Nico brough up that fall fest is important for funding. We can decide to do this or not. Up to everyone. 
