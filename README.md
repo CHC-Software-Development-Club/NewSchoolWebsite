@@ -4,6 +4,11 @@ If you were confused at all during the meeting today (Wednesday September 18th),
 
 If you couldn't attend or were doing something else while there, here are some things you WILL need for the club.
 
+Club Planning Info:
+---------------------------
+- September 23rd Meeting: Teach New Programmers Javascript, and learn the framework all together. Possibly divide up into different teams from experience.
+- September 30th Meeting: Get started on project (Set up express server and get port listening, Basic Database if time allows)
+
 Software:
 -----------------------------
 - Visual Studio Code (Get the Live share extension too if you can)
