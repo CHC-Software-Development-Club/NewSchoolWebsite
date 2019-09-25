@@ -3,7 +3,8 @@
 
 Notes:
 ---------------------------
-- Going to push basic files here so we can start next meeting. Will announce at assembly that meetings r Mondays to clarify. 
+- Going to push basic files here so we can start next meeting. Will announce at assembly that meetings r Mondays to clarify.
+- Tysm Kian for doing the Front-End Dependencies. I will do the back
 
 Club Planning Info:
 ---------------------------
