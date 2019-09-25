@@ -8,7 +8,8 @@ Notes:
 
 Club Planning Info:
 ---------------------------
-- October 5th Meeting: Get started on project (Set up express server and get port listening, Basic Database if time allows)
+- October 7th Meeting: Get started on project (Set up express server and get port listening, Basic Database if time allows)
+- October 14th: TBD
 
 Software:
 -----------------------------
