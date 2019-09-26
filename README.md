@@ -14,7 +14,12 @@ Club Planning Info:
 Software:
 -----------------------------
 - Visual Studio Code (Get the Live share extension too if you can)
-- Gitbash (For pushing your work to the github so we can all be up to date)
+- Git (For pushing your work to the github so we can all be up to date)
+
+Quick guide for Git:
+- Create a github
+- Read This for commands: https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html
+
 
 
 Events:
