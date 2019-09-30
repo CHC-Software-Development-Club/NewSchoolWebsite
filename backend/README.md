@@ -1,6 +1,6 @@
 # BackEnd Resources
 Some Troubles:
-------------------------
+-------------------------
 Had trouble starting it. 
 Tried using https://www.tutorialspoint.com/graphql/graphql_environment_setup.htm
 
