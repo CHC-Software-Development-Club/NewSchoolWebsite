@@ -8,5 +8,5 @@ Might go do a different method, but for now if the db can be fixed then it shoul
 
 Scripts:
 ---------------------
-### `npm start`
+### ```npm start```
 - Starts Graph Ql
