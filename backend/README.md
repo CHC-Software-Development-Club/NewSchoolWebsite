@@ -1,12 +1,11 @@
-# BackEnd Resources
-Some Troubles:
--------------------------
-Had trouble starting it. 
-Tried using https://www.tutorialspoint.com/graphql/graphql_environment_setup.htm
+# Backend for site
 
-Might go do a different method, but for now if the db can be fixed then it should work
+Started some work on this. Should start the API on port 4500. You will need Docker and Docker Compose.
 
-Scripts:
----------------------
-### ```npm start```
-- Starts Graph Ql
+You can access the GraphQL environment to test queries at http://localhost:4500/graphql
+
+## Scripts:
+
+### `docker-compose up`
+
+Starts backend
