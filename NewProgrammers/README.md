@@ -2,7 +2,7 @@
 
 Oh Hello! I'm assuming since you are here, you are new to programming. This is a cheat sheet. 
 
-During this year's club, we will be working with HTML, CSS, JavaScript (And React). DONT WORRY ABOUT BACKEND! People with knowledge will be working on that along side working with you (the brave soul wanting to learn).
+During this year's club, we will be working with HTML, CSS, JavaScript (And React). DONT WORRY ABOUT BACKEND! People with knowledge will be working on that along side helping you out (the brave soul wanting to learn).
 
 # HTML
 - Concept:
@@ -33,7 +33,7 @@ const x = 'Some text idk'; //This is a constant. It stays constant throughout th
 
 var num = 1 //A basic Variable. Won't be using it much as it has its flaws and causes multiple errors if done wrong.
 
-let x = 'some text' //Let is a variable in a function, and only that function. It will only work there. At the end of the function, it will stop working.
+let x = 'some text'; //Let is a variable in a function, and only that function. It will only work there. At the end of the function, it will stop working.
 ```
 
 There are also something called functions. Functions are basically recallable code as I like to think of it. You can program as many logic statements in a function as you want and helps later. The Best way to think of a function is like... A machine in a factory. The machine has the same function, which it just does everytime it's activated. In the case below, I had to define a function first. Tell it what it is. After, I had to call it (See Ref1 code). This actually runs it.
@@ -45,4 +45,28 @@ this.someText = someText //Don't need to know this QUITE yet. Something u will p
 
 printConsole(x) //Ref1
 ```
+
+Finally, there is the if statement. This will be the logic part of it. The if statement is simple. If something equals something else, then a series of code will run. It is written something like this:
+```
+if(x == y) {
+ console.log("x equals y");
+} else { //Else is of course meaning that statement wasn't true, and the code in the else will run.
+ console.log("x did not equal y"):
+}
+```
 # CSS
+Finally, we have CSS. I like to compare CSS to the Google Drive toolbar for documents. CSS is basically just a language to style your HTML (Pretty cool right?).
+![Google Drive Bar](https://i.imgur.com/2VpQxa6.png)
+Anything you can do on that can be done in CSS. it is written something like this:
+```
+p {
+font-family: comic-sans;
+color: green;
+}
+```
+Just like HTML, it's just a TON of commands instead of much logic and theory behind it. So here is another list of commands (Ikik I'm lazy)
+![CSS Properties](https://www.dummies.com/wp-content/uploads/221806.image0.jpg)
+
+
+# React
+Finally, we are left with React. The main language we will be using as a front end. React is a weird mix of both HTML and Javascript. It's quite a useful language for web development. (picking up in a sec)
