@@ -65,6 +65,7 @@ color: green;
 }
 ```
 Just like HTML, it's just a TON of commands instead of much logic and theory behind it. So here is another list of commands (Ikik I'm lazy)
+
 ![CSS Properties](https://www.dummies.com/wp-content/uploads/221806.image0.jpg)
 
 
