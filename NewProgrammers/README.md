@@ -13,11 +13,11 @@ One MAJOR part of this is elements. An element is a "part" of a project. Think o
 Below I put a table of common HTML Elements, which is INCREDIBLY useful for very new HTML programmers. Don't worry. This language is fairly easy. 
 ![Common HTML Element Chart](https://3.bp.blogspot.com/-nTFGSrgQkig/VtSMGZrsZyI/AAAAAAAAKvg/93T3baoPQFo/s1600/html-tags-list.jpg)
 ```
-<html> //This declares the file an HTML file. 
-<div id="Hai> //This declares a section or "division" of the code
-<p>Hello World<p> //This is the paragraph element
+<html> #This declares the file an HTML file. 
+<div id="Hai> #This declares a section or "division" of the code
+<p>Hello World<p> #This is the paragraph element (It is for well... a paragraph!)
 </div>
-</html> //The Slash ends any element
+</html> #The Slash ends any element
 ```
 
 
