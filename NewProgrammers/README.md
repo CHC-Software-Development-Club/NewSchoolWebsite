@@ -1,27 +1,13 @@
-# New School Website
+# New Programmers Guide
 ![Graph of Dependencies](https://i.imgur.com/ptNXrkC.png)
 
-Notes:
----------------------------
-- Going to push basic files here so we can start next meeting. Will announce at assembly that meetings r Mondays to clarify.
-- Tysm Kian for doing the Front-End Dependencies. I will do the back
+Oh Hello! I'm assuming since you are here, you are new to programming. This is a cheat sheet. 
 
-Club Planning Info:
----------------------------
-- October 7th Meeting: Get started on project (Set up express server and get port listening, Basic Database if time allows)
-- October 14th: TBD
+During this year's club, we will be working with HTML, CSS, JavaScript (And React). DONT WORRY ABOUT BACKEND! People with knowledge will be working on that along side working with you (the brave soul wanting to learn).
 
-Software:
------------------------------
-- Visual Studio Code (Get the Live share extension too if you can)
-- Git (For pushing your work to the github so we can all be up to date)
-
-Quick guide for Git:
-- Create a github
-- Read This for commands: https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html
+# HTML
 
 
+# JavaScript
 
-Events:
-----------------------
-- Fall Fest Form (Grayson and I)
+# CSS
