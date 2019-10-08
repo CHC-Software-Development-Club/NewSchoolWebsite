@@ -1,15 +1,13 @@
 # New School Website
-![Graph of Dependencies](https://i.imgur.com/ptNXrkC.png)
-
 Notes:
 ---------------------------
-- Going to push basic files here so we can start next meeting. Will announce at assembly that meetings r Mondays to clarify.
-- Tysm Kian for doing the Front-End Dependencies. I will do the back
+- I made a new programmer file. I will create a basic React enviroment in there to mess around with. FREELY use it. It is for you and no one else. Play around. Have fun. This is what the club is all about. Enjoying programming together.
 
 Club Planning Info:
 ---------------------------
-- October 7th Meeting: Get started on project (Set up express server and get port listening, Basic Database if time allows)
-- October 14th: TBD
+- October 14th: Start working on front-end react. Beginner Friendly. Don't be scared
+- October 21st: Continue Front-End work
+- October 28th: Depends on how back end is looking. Most likely more front-end work, but mixed with backend
 
 Software:
 -----------------------------
@@ -20,8 +18,14 @@ Quick guide for Git:
 - Create a github
 - Read This for commands: https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html
 
+Deps.
+![Graph of Dependencies](https://i.imgur.com/ptNXrkC.png)
 
 
 Events:
 ----------------------
-- Fall Fest Form (Grayson and I)
+FALL FESTIVAL SCHEDULING! Please contact Tripp or Grayson via email or in person to fill a time.
+- 8:00-9:00 (I will be here then)
+- 9:00-10
+- 11:00-12
+- 12:00-1 (I have this one)
