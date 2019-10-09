@@ -85,13 +85,13 @@ import {element here} from "./{file here}"; //Allows variables, functions, etc. 
 Now let's make some React. React isn't a language, it's a javascript library. So, all of our frontend files will be written in javascript. However, this doesn't mean we're escaping from HTML or CSS. React utilizes a weird hybrid called JSX, that looks like this:
 ```
 class coolHeading extends react.component() {
-   render (
+   render() {
       return (
          <div>
             <h1>Cape Henry Collegiate</h1>
          </div>
       );
-   )
+   }
 }
 ```
 See how it's javascript and HTML at the same time? Strange. This is JSX. React compiles it into javascript that it can make sense of. Convenient! 
