@@ -2,7 +2,7 @@
 
 Oh Hello! I'm assuming since you are here, you are new to programming. This is a cheat sheet. 
 
-During this year's club, we will be working with HTML, CSS, JavaScript (And React). DONT WORRY ABOUT BACKEND! People with knowledge will be working on that along side helping you out (the brave soul wanting to learn).
+During this year's club, we will be working with HTML, CSS, JavaScript (And React). DONT WORRY ABOUT BACKEND! 
 
 # HTML
 - Concept:
