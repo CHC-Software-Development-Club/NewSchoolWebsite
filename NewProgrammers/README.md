@@ -8,7 +8,7 @@ During this year's club, we will be working with HTML, CSS, JavaScript (And Reac
 - Concept:
  Html is what the the webpage interperates. If you open inspect element, that is HTML. Think of it as directions to a LEGO set. The website interprets it, and builds it. 
  
-One MAJOR part of this is elements. An element is a "part" of a project. Think of it like a periodic table element. They each have their own function. That's the same with HTML elements. They each make up a part of a webpage.
+One MAJOR part of this is elements. An element is a "part" of a project. Think of it like a periodic table element. They each have their own function. That's the same with HTML elements. They each make up a part of a webpage. Elements can contain text and other elements within them.
 
 Below I put a table of common HTML Elements, which is INCREDIBLY useful for very new HTML programmers. Don't worry. This language is fairly easy. 
 ![Common HTML Element Chart](https://3.bp.blogspot.com/-nTFGSrgQkig/VtSMGZrsZyI/AAAAAAAAKvg/93T3baoPQFo/s1600/html-tags-list.jpg)
@@ -16,9 +16,9 @@ Below I put a table of common HTML Elements, which is INCREDIBLY useful for very
 - Basic HTML File
 ```
 <html> #This declares the file an HTML file. 
-<div id="Hai> #This declares a section or "division" of the code
-<p>Hello World<p> #This is the paragraph element (It is for well... a paragraph!)
-</div>
+  <div id="Hai> #This declares a section or "division" of the code
+    <p>Hello World<p> #This is the paragraph element (It is for well... a paragraph!)
+  </div>
 </html> #The Slash ends any element
 ```
 
@@ -26,21 +26,22 @@ Below I put a table of common HTML Elements, which is INCREDIBLY useful for very
 # JavaScript
 
 - Concept:
- Javascript is all about logic. If x does not equal y, then do z. Stuff like that. You are able to declare variables, which are simple statements stating certain text, true or false statements. There are 3 different types. In this club, we are mostly using two for security and practicality:
+ Javascript is all about logic. If x does not equal y, then do z. Stuff like that. You are able to declare variables, which are simple statements stating certain text, true or false statements. There are 3 different types of variable, `const`, `let`, and `var`. In this club, we are mostly using two for security and practicality:
 ```
-const express = require('express-js'); //U will see this type latr.
 const x = 'Some text idk'; //This is a constant. It stays constant throughout the WHOLE FILE. There's no changing it once it's declared
 
-var num = 1 //A basic Variable. Won't be using it much as it has its flaws and causes multiple errors if done wrong.
+var num = 1; //A basic Variable. Won't be using it much as it has its flaws and causes multiple errors if done wrong.
 
 let x = 'some text'; //Let is a variable in a function, and only that function. It will only work there. At the end of the function, it will stop working.
 ```
 
 There are also something called functions. Functions are basically recallable code as I like to think of it. You can program as many logic statements in a function as you want and helps later. The Best way to think of a function is like... A machine in a factory. The machine has the same function, which it just does everytime it's activated. In the case below, I had to define a function first. Tell it what it is. After, I had to call it (See Ref1 code). This actually runs it.
+
+Functions take in "parameters", like `someText`, and can return values using the `return` statement so they can be used in another place in your program (the function below doesn't return anything, it just logs a value to the console).
+
 ```
 function printConsole(someText) {
-this.someText = someText //Don't need to know this QUITE yet. Something u will pick up.
- console.log(someText); //The command to log something in console
+  console.log(someText); //The command to log something in console
 }
 
 printConsole(x) //Ref1
@@ -49,9 +50,9 @@ printConsole(x) //Ref1
 Finally, there is the if statement. This will be the logic part of it. The if statement is simple. If something equals something else, then a series of code will run. It is written something like this:
 ```
 if(x == y) {
- console.log("x equals y");
+  console.log("x equals y");
 } else { //Else is of course meaning that statement wasn't true, and the code in the else will run.
- console.log("x did not equal y"):
+  console.log("x did not equal y"):
 }
 ```
 # CSS
@@ -60,8 +61,8 @@ Finally, we have CSS. I like to compare CSS to the Google Drive toolbar for docu
 Anything you can do on that can be done in CSS. it is written something like this:
 ```
 p {
-font-family: comic-sans;
-color: green;
+  font-family: comic-sans;
+  color: green;
 }
 ```
 Just like HTML, it's just a TON of commands instead of much logic and theory behind it. So here is another list of commands (Ikik I'm lazy)
@@ -70,4 +71,4 @@ Just like HTML, it's just a TON of commands instead of much logic and theory beh
 
 
 # React
-Finally, we are left with React. The main language we will be using as a front end. React is a weird mix of both HTML and Javascript. It's quite a useful language for web development. (picking up in a sec)
+Finally, we are left with React and JSX, the main tools we will be using on the front end. React is a weird mix of both HTML and Javascript. It's quite a useful language for web development. (picking up in a sec)
