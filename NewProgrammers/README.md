@@ -52,7 +52,7 @@ Finally, there is the if statement. This will be the logic part of it. The if st
 if(x == y) {
   console.log("x equals y");
 } else { //Else is of course meaning that statement wasn't true, and the code in the else will run.
-  console.log("x did not equal y"):
+  console.log("x did not equal y");
 }
 ```
 # CSS
