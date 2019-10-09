@@ -70,4 +70,79 @@ Just like HTML, it's just a TON of commands instead of much logic and theory beh
 
 
 # React
-Finally, we are left with React. The main language we will be using as a front end. React is a weird mix of both HTML and Javascript. It's quite a useful language for web development. (picking up in a sec)
+Finally, we are left with React. The main language we will be using as a front end. React is a weird mix of both HTML and Javascript. It's quite a useful language for web development. 
+
+This readme will only include the basics. Recommended learning tools are listed at the bottom. 
+
+Some of the main imports used in React:
+```
+import React from "react"; //Without this, there'd be no react.
+import ReactDOM from "react-dom"; //This allows us to render components, elements, JSX... react.
+import styled from "styled-components"; //Used to stylize our JSX (HTML) elements with CSS.
+import {element here} from "./{file here}"; //Allows variables, functions, etc. exported from other files to be used.
+```
+Now let's make some React. React isn't a language, it's a javascript library. So, all of our frontend files will be written in javascript. However, this doesn't mean we're escaping from HTML or CSS. React utilizes a weird hybrid called JSX, that looks like this:
+```
+class coolHeading extends react.component() {
+   render (
+      return (
+         <div>
+            <h1>Cape Henry Collegiate</h1>
+         </div>
+      );
+   )
+}
+```
+See how it's javascript and HTML at the same time? Strange. This is JSX. React compiles it into javascript that it can make sense of. Convenient! 
+
+All that class stuff earlier looks disgusting. Let's use a function instead! 
+```
+function coolHeading() {
+   return (
+      <div>
+         <h1>Cape Henry Collegiate</h1>
+      </div>
+  );
+}
+```
+Easier to understand, right? Time to render it. We'll utilize ReactDOM for this:
+```
+ReactDOM.render(
+   <coolHeading/>, //Element is placed in single tag </>.
+   document.getElementById("place we want to render") //HTML element with said id is where the element is rendered
+);
+```
+Amazing. The actual header, not so much. Let's make it live up to it's name! Time to stylize it:
+```
+const Header = stylized.h1`       //Utilizing "styled-components" to declare a constant h1 with certain CSS properties
+   text-align: center;
+   color: red;
+   text-decoration: underline;
+`;
+
+function coolHeading() {
+   return (
+      <div>
+         <Header>Cape Henry Collegiate</Header>  //Tag changed to const element
+      </div>
+  );
+}
+```
+Nice. On a good track to making a fully fledged website. One more thing, what if you want to pass an element to another file? Simple!
+```
+export function coolHeading() {   //Just put "export" before it and "import" in said file
+   return (
+      <div>
+         <Header>Cape Henry Collegiate</Header>  //Tag changed to const element
+      </div>
+  );
+}
+
+//OR, afterwards:
+
+export default coolHeading; 
+```
+That's it for the basics! Here's some tools to help:
+1. [Codecademy Basics](https://www.codecademy.com/learn/react-101)
+2. [React Documentation](https://reactjs.org/docs/getting-started.html)
+3. [React App Creation Docs](https://facebook.github.io/create-react-app/docs/getting-started)
