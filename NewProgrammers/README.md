@@ -133,7 +133,7 @@ Nice. On a good track to making a fully fledged website. One more thing, what if
 export function coolHeading() {   //Just put "export" before it and "import" in said file
    return (
       <div>
-         <Header>Cape Henry Collegiate</Header>  //Tag changed to const element
+         <Header>Cape Henry Collegiate</Header>  
       </div>
   );
 }
