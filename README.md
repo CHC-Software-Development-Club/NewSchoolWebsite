@@ -25,7 +25,7 @@ Deps.
 Events:
 ----------------------
 FALL FESTIVAL SCHEDULING! Please contact Tripp or Grayson via email or in person to fill a time.
-- 8:00-9:00 (I will be here then)
+- 8:00-9:00 (Tripp)
 - 9:00-10
-- 11:00-12
-- 12:00-1 (I have this one)
+- 11:00-12 (Grayson)
+- 12:00-1 (Tripp, Grayson)
