@@ -1,15 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 
-export class defaultButton extends React.Component {
-  render() {
-    <div>
-    <button onClick={}>
-      <img src={this.props.src}>
-    </img>
-    </button>
-    </div>
-  }
-}
+const StyledButton = styled.button``;
 
-export default defaultButton;
+const Button = function(props) {
+  return (
+    <div>
+      <StyledButton onClick={props.onClick}>
+        <img src={props.src}></img>
+      </StyledButton>
+    </div>
+  );
+};
+
+export default Button;
