@@ -5,9 +5,9 @@ Notes:
 
 Club Planning Info:
 ---------------------------
-- October 14th: Start working on front-end react. Beginner Friendly. Don't be scared
-- October 21st: Continue Front-End work
 - October 28th: Depends on how back end is looking. Most likely more front-end work, but mixed with backend
+- Meeting X: Front End
+- Meeting Y: Front End (Possible Back End Intro)
 
 Software:
 -----------------------------
@@ -24,8 +24,4 @@ Deps.
 
 Events:
 ----------------------
-FALL FESTIVAL SCHEDULING! Please contact Tripp or Grayson via email or in person to fill a time.
-- 8:00-9:00 (Tripp)
-- 9:00-10
-- 11:00-12 (Grayson)
-- 12:00-1 (Tripp, Grayson)
+None! Just progress!
