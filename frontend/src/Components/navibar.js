@@ -3,7 +3,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Button from './Button'
 
-const Navbar = (props) => {
+const Navbar = () => {
   return (
     <Container fluid={true}>
       <Button>a</Button>
