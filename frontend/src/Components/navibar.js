@@ -1,22 +1,25 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Button from './Button'
+import styled from 'styled-components'
 
 const Navbar = () => {
   return (
-    <Container fluid={true}>
+    <NaviStyle>
       <Button>a</Button>
       <Button>b</Button>
       <Button>c</Button>
       <Button>d</Button>
-    </Container>
+    </NaviStyle>
   );
 }
 
 export default Navbar;
 
 //This is the styled Component
-const NaviStyle = styled.nav `
-  backround-color: red,
-  color: #eaebeb;
+const NaviStyle = styled.body `
+width: 100%;
+length: 10%
+text-align: center;
+background-color: red;
 `

@@ -3,12 +3,14 @@ import styled from "styled-components";
 
 const StyledButton = styled.button`
   color: red;
+  width: 20%
 `;
 
 const Button = (props) => {
   return (
       <StyledButton onClick={props.onClick}>
-        <img src={props.src}></img>
+        <h1 />
+        {props.children}
       </StyledButton>
   );
 };
