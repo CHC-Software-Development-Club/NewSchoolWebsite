@@ -15,3 +15,9 @@ const Navbar = function(props) {
 }
 
 export default Navbar;
+
+//This is the styled Component
+const NaviStyle = styled.nav `
+  backround-color: red,
+  color: #eaebeb;
+`

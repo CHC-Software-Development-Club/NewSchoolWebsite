@@ -5,11 +5,9 @@ const StyledButton = styled.button``;
 
 const Button = (props) => {
   return (
-    <div>
       <StyledButton onClick={props.onClick}>
         <img src={props.src}></img>
       </StyledButton>
-    </div>
   );
 };
 
