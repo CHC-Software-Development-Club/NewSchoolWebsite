@@ -19,7 +19,9 @@ export default Navbar;
 //This is the styled Component
 const NaviStyle = styled.body `
 width: 100%;
-length: 10%
+length: 10%;
+margin: 0px;
+padding: 0px;
 text-align: center;
 background-color: red;
 `

@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const StyledButton = styled.button`
   color: red;
-  width: 20%
 `;
 
 const Button = (props) => {
