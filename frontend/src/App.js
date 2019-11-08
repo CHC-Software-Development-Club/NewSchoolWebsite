@@ -1,23 +1,20 @@
 import React from "react";
 import styled from "styled-components";
-import Navbar from "./Components/navibar"
+import Navbar from "./Components/navibar";
+import Imagecaro from "./Components/imagecaro";
 
 const Heading = styled.h1` 
   text-align: center;
 `;
 
-const backgroundColor = styled.body` 
-background-color: gray;
-`;
 
 export function App() {
   return (
-    <backgroundColor>
-    <div id="Whole Website">
+    <div>
       <Navbar />
-      <Heading>Demo App</Heading>
+      <Imagecaro />
+      <Heading>New CHC Web</Heading>
     </div>
-    </backgroundColor>
   );
 }
 

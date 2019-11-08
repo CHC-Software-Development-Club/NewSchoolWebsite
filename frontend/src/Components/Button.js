@@ -5,10 +5,11 @@ const StyledButton = styled.button`
   color: red;
 `;
 
+
 const Button = (props) => {
   return (
       <StyledButton onClick={props.onClick}>
-        <h1 />
+        <img />
         {props.children}
       </StyledButton>
   );
