@@ -5,9 +5,14 @@ Notes:
 
 Club Planning Info:
 ---------------------------
-- October 28th: Depends on how back end is looking. Most likely more front-end work, but mixed with backend
-- Meeting X: Front End
-- Meeting Y: Front End (Possible Back End Intro)
+- November 20th: Elements
+- November 25th: Divide Up Work - Someone stay with the creation of elements, another the backend
+- (Break): I will be working on this as I do not do much with my family
+- December 2nd: Lets try to wrap up the BASIC front page by now
+- December 9th: Use the backend to add fuctionality to front page
+
+- December 16th: Good luck with Exams! If we want to do something over the break just let us know on Discord. We can all meet up or something and get some work done.
+
 
 Software:
 -----------------------------
