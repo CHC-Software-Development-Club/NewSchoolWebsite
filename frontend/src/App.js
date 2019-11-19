@@ -3,10 +3,10 @@ import styled from "styled-components";
 import Navbar from "./Components/navibar";
 import Imagecaro from "./Components/imagecaro";
 
-const Heading = styled.h1` 
+const Heading = styled.h1`
   text-align: center;
+  font-weight: 400;
 `;
-
 
 export function App() {
   return (
@@ -17,6 +17,5 @@ export function App() {
     </div>
   );
 }
-
 
 export default App;
