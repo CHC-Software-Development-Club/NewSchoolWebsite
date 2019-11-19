@@ -3,6 +3,8 @@ Notes:
 ---------------------------
 - I made a new programmer file. I will create a basic React enviroment in there to mess around with. FREELY use it. It is for you and no one else. Play around. Have fun. This is what the club is all about. Enjoying programming together.
 
+- Nice going on the Front-end guys. I was not there yesterday, as I was having some mental health issues. I will be present next meeting
+
 Club Planning Info:
 ---------------------------
 - November 20th: Elements
