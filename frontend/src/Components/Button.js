@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import {Link} from "react-router-dom";
 
-const StyledButton = styled.button`
+const StyledButton = styled(Link)`
   color: red;
   background: white;
   border-radius: 4px;
@@ -13,7 +14,7 @@ const StyledButton = styled.button`
 
 const Button = props => {
   return (
-    <StyledButton onClick={props.onClick}>
+    <StyledButton to={props.to}>
       <img />
       {props.children}
     </StyledButton>

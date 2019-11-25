@@ -10,7 +10,7 @@ const Navbar = () => {
       <Button>b</Button>
       <Image src="/images/logo.png" alt="test" />
       <Button>c</Button>
-      <Button>d</Button>
+      <Button to="/login">Login</Button>
     </NaviStyle>
   );
 };
