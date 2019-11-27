@@ -6,10 +6,10 @@ import styled from "styled-components";
 const Navbar = () => {
   return (
     <NaviStyle>
-      <Button>a</Button>
-      <Button>b</Button>
+      <Button to="/about">About</Button>
+      <Button>Athletics</Button>
       <Image src="/images/logo.png" alt="test" />
-      <Button>c</Button>
+      <Button>Contact</Button>
       <Button to="/login">Login</Button>
     </NaviStyle>
   );
@@ -28,5 +28,6 @@ const NaviStyle = styled.body`
 `;
 
 const Image = styled.img`
-  margin: 0 15px;
+  margin: 0 5px;
+  width: 150px;
 `;

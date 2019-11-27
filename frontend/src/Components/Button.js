@@ -10,6 +10,7 @@ const StyledButton = styled(Link)`
   padding: 8px 12px;
   margin: 0 8px;
   border: none;
+  text-decoration: none;
 `;
 
 const Button = props => {

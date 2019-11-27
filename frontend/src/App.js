@@ -4,6 +4,7 @@ import Navbar from "./Components/navibar";
 import Imagecaro from "./Components/imagecaro";
 import {Switch,Route} from "react-router-dom";
 import Index from "./Pages/Index";
+import About from "./Pages/About";
 
 const Heading = styled.h1`
   text-align: center;
@@ -15,10 +16,9 @@ export function App() {
     <div>
       <Navbar />
       <Imagecaro />
-      <Heading>New CHC Web
-      </Heading>
       <Switch>
         <Route exact path="/login" component={Index}/>
+        <Route exact path="/about" component={About}/>
       </Switch>
     </div>
   );
