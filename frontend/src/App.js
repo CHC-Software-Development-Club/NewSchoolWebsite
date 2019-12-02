@@ -2,14 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import Navbar from "./Components/navibar";
 import Imagecaro from "./Components/imagecaro";
-import {Switch,Route} from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Index from "./Pages/Index";
 import About from "./Pages/About";
-
-const Heading = styled.h1`
-  text-align: center;
-  font-weight: 400;
-`;
 
 export function App() {
   return (
@@ -17,8 +12,8 @@ export function App() {
       <Navbar />
       <Imagecaro />
       <Switch>
-        <Route exact path="/login" component={Index}/>
-        <Route exact path="/about" component={About}/>
+        <Route exact path="/login" component={Index} />
+        <Route exact path="/about" component={About} />
       </Switch>
     </div>
   );

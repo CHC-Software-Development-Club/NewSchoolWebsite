@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const StyledButton = styled(Link)`
   color: red;
@@ -14,12 +14,7 @@ const StyledButton = styled(Link)`
 `;
 
 const Button = props => {
-  return (
-    <StyledButton to={props.to}>
-      <img />
-      {props.children}
-    </StyledButton>
-  );
+  return <StyledButton to={props.to}>{props.children}</StyledButton>;
 };
 
 export default Button;
