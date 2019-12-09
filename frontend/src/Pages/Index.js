@@ -1,5 +1,8 @@
-import React from "react";
+import React from 'react';
+import InputForm from '../Components/InputForm'
+
+
 
 export default function Index() {
-  return <h1>Hello World</h1>;
+    return <InputForm />
 }
