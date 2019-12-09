@@ -12,7 +12,12 @@ const InputForm = props => {
 };
 
 const Form = styled.form`
-background-color: #123456;
+background-color: #ff0000;
+padding: 50px;
+display: block;
+width: 40%;
+margin: 100px auto;
+border-radius: 10px;
 `
 
 export default InputForm;
